@@ -12,3 +12,15 @@ public class Sequence {
     return result.stream().mapToInt(i -> i).toArray();
   }
 }
+
+// more elegant solution :
+// import java.util.stream.IntStream;
+//
+// public class Sequence{
+//
+//  public static int[] reverse(int n){
+//
+//    return IntStream.range(-n, 0).map(Math::abs).toArray();
+//  }
+//
+// }

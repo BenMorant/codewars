@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class InvertIntsTest {
 
   @Test
-  public void testSomething() {
+  public void testInvert() {
 
     int[] input = new int[] {-1, -2, -3, -4, -5};
     int[] expected = new int[] {1, 2, 3, 4, 5};
