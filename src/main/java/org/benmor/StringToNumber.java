@@ -1,7 +1,7 @@
 package org.benmor;
 
 public class StringToNumber {
-    public static int stringToNumber(String str) {
-return Integer.parseInt(str);
-    }
+  public static int stringToNumber(String str) {
+    return Integer.parseInt(str);
+  }
 }
